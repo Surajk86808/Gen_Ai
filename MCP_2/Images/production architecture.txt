@@ -1,0 +1,24 @@
+    YOU (User) => ask question
+            │
+            ▼
+     🧠 agent.py  ← (THE BRAIN)
+            │
+            ▼
+   🌐 Gemini LLM (Google Cloud)
+            │
+     decides tool is needed
+            │
+            ▼
+     🔧 weather.py (MCP Tool)
+            │
+            ▼
+        Weather Data
+            │
+            ▼
+        agent.py
+            │
+            ▼
+     Final English Answer
+            │
+            ▼
+            YOU
