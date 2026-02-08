@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "D:\\Genai\\MCP\\weather\\.venv\\Scripts\\python.exe", //uv or venv path
+      "args": [
+        "D:\\Genai\\MCP\\weather\\weather.py"   // path to the script to run
+      ]
+    }
+  },
+  "preferences": {
+    "coworkScheduledTasksEnabled": false,
+    "sidebarMode": "chat"
+  }
+}
